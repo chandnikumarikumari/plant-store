@@ -206,8 +206,9 @@ The application is deployed on:
 
 **Chandni Kumari**
 
-GitHub: [GitHub Profile]
+GitHub: https://github.com/chandnikumarikumari/plant-store/edit/main/README.md
 
-LinkedIn: [LinkedIn Profile]
+LinkedIn: 
 
-Email: [Your Email]
+Email: nishadkumarichandni1@gmail.com
+
