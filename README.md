@@ -68,3 +68,146 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Product Listing Page
+
+A responsive Product Listing Page built as part of the Frontend Hiring Assignment.
+
+## Live Demo
+
+**Deployment:**
+[Live Deployment URL]
+
+## GitHub Repository
+
+[GitHub Repository URL]
+
+---
+
+## Tech Stack
+
+* React.js
+* Tailwind CSS
+* JavaScript
+* Vite (if used)
+* Git & GitHub
+* Vercel/Render (Deployment)
+
+---
+
+## Features
+
+* Pixel-perfect implementation based on the provided Figma design
+* Fully responsive layout (Desktop, Tablet, and Mobile)
+* Reusable React components
+* Responsive navigation with mobile menu
+* Smooth hover and transition effects
+* Accessible semantic HTML
+* Optimized images
+* Keyboard-friendly navigation
+
+---
+
+## Project Structure
+
+```
+src/
+│── assets/
+│── components/
+│   ├── Navbar.jsx
+│   ├── HeroBanner.jsx
+│   ├── SectionTitle.jsx
+│   ├── PlantCard.jsx
+│   ├── TestimonialCard.jsx
+│   ├── Footer.jsx
+│   └── Button.jsx
+│
+│── data/
+│── App.jsx
+│── main.jsx
+```
+
+---
+
+## Installation
+
+Clone the repository
+
+```bash
+git clone <repository-url>
+```
+
+Move into the project directory
+
+```bash
+cd <project-folder>
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+Open your browser and visit
+
+```
+http://localhost:5173
+```
+
+---
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+Preview the production build
+
+```bash
+npm run preview
+```
+
+---
+
+## Assignment Requirements Covered
+
+* Responsive Navbar
+* Hero Section
+* Trending Plants
+* Top Selling Plants
+* Customer Reviews
+* O₂ Plants Section
+* Footer
+* Reusable Components
+* Tailwind CSS Styling
+* Accessibility
+* Responsive Design
+
+---
+
+## Deployment
+
+The application is deployed on:
+
+* Vercel/Render
+* Publicly accessible without authentication
+
+---
+
+## Author
+
+**Chandni Kumari**
+
+GitHub: [GitHub Profile]
+
+LinkedIn: [LinkedIn Profile]
+
+Email: [Your Email]
