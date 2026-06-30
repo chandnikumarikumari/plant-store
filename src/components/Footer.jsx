@@ -1,7 +1,6 @@
 const Footer = () => (
   <footer className="bg-flora-bg2 border-t border-flora-border" style={{ padding: "60px 60px 30px" }}>
 
-    {/* Newsletter */}
     <div
       className="bg-flora-bg3 border border-flora-border rounded-2xl flex flex-col md:flex-row items-center justify-between gap-10 mb-16 flex-wrap"
       style={{ padding: "56px 60px" }}
@@ -27,7 +26,6 @@ const Footer = () => (
       </div>
     </div>
 
-    {/* Footer Grid */}
     <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
       <div>
         <div className="font-playfair text-xl font-bold mb-3">
@@ -79,7 +77,6 @@ const Footer = () => (
       ))}
     </div>
 
-    {/* Bottom */}
     <div className="border-t border-flora-border pt-6 flex flex-col md:flex-row justify-between items-center gap-3">
       <p className="text-flora-muted text-xs">© FloraVision — All rights reserved 2026</p>
       <div className="flex gap-6">

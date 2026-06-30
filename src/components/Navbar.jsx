@@ -35,12 +35,10 @@ const Navbar = ({ cartCount = 3 }) => {
         className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between bg-flora-bg/85 backdrop-blur-md border-b border-flora-border"
         style={{ padding: "18px 60px" }}
       >
-        {/* Logo */}
         <div className="font-playfair text-2xl font-bold tracking-tight">
           Flora<span className="text-flora-green">Vision</span>
         </div>
 
-        {/* Desktop Links */}
         <ul className="hidden md:flex gap-9 list-none">
           {links.map((l) => (
             <li key={l.id}>
@@ -57,7 +55,6 @@ const Navbar = ({ cartCount = 3 }) => {
           ))}
         </ul>
 
-        {/* Right Icons */}
         <div className="flex items-center gap-4">
           <button
             type="button"
@@ -84,7 +81,6 @@ const Navbar = ({ cartCount = 3 }) => {
             👤
           </button>
 
-          {/* Hamburger */}
           <button
             type="button"
             aria-label="Menu"
@@ -98,7 +94,6 @@ const Navbar = ({ cartCount = 3 }) => {
         </div>
       </nav>
 
-      {/* Mobile Menu */}
       {menuOpen && (
         <div className="fixed top-[70px] left-0 right-0 z-40 bg-flora-bg2 border-b border-flora-border flex flex-col gap-5 px-8 py-6">
           {links.map((l) => (
